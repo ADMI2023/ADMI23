@@ -7,8 +7,8 @@ parser = argparse.ArgumentParser(description='ADMI')
 
 parser.add_argument('--device', type=str, default="cuda:0", help='input sequence length')
 parser.add_argument('--batch', type=int, default=16, help='input batch size')
-parser.add_argument('--dataset', type=str, default="kdd", help='data set name')
-parser.add_argument('--missing_rate', type=float, default=0.1, help='missing percent for experiment')
+parser.add_argument('--dataset', type=str, default="beijing18", help='data set name')
+parser.add_argument('--missing_rate', type=float, default=0, help='missing percent for experiment')
 parser.add_argument('--seed', type=int, default=3407, help='random seed')
 
 # input data enc_in c_out setting: beijing18:99 urbantraffic:214 physionet12:37
