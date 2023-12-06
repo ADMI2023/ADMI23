@@ -1,4 +1,4 @@
-# Frequency-aware Generative Models for Multivariate Time Series Imputation
+# Acceleration-Guided Diffusion Model for Multivariate Time series Imputation
 
 
 ## File Structure
