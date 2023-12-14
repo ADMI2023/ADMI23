@@ -1,4 +1,4 @@
-# Acceleration-Guided Diffusion Model for Multivariate Time series Imputation
+# Acceleration-Guided Diffusion Model for Multivariate Time Series Imputation
 
 
 ## File Structure
@@ -9,16 +9,16 @@
 ## Preprocessing each dataset
 0. Enter the "Code" folder
 
-1. For get Beijing18 dataset:
+1. To get the Beijing18 dataset:
 ```
 python loadBeijing18Dataset.py
 ```
 
-2. For get UrbanTraffic dataset:
+2. To get UrbanTraffic dataset:
 ```
 python loadUrbanTrafficDataset.py
 ```
-3. For get PhysioNet12 dataset:
+3. To get the PhysioNet12 dataset:
 ```
 python loadPhysioNet12Dataset.py
 ```
